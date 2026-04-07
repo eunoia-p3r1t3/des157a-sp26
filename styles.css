@@ -73,6 +73,9 @@ section a:hover{
     margin-bottom: 30px;
     place-items: center;
 }
+.sec1{
+    background-image: url(images/double\ patch.png);
+}
 .sub{
     display: flex;
     justify-content: space-between;
