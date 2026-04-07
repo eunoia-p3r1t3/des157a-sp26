@@ -1,0 +1,9 @@
+* {
+ box-sizing: border-box;
+}
+header{
+    display: block;
+    background-color: #3A4962;
+    border-radius: 30px;
+    margin-bottom:10px;
+}
