@@ -6,13 +6,15 @@
     <title>Experiment 1</title>
 </head>
 <body>
-    <h1>Look in th econsole to see the results</h1>
+    <h1>Look in the console to see the results</h1>
     <script>
         //sequence 1
-        var myText = prompt("What is it that you want to do today?");
+        var myText = prompt("What is your name?");
         //sequence 2
-        var char = myText.charAt(2);
-
+        var myOtherText = prompt("What is it that you want to do today?");
+        
+        var newString = "";
+        
         //selection
         if(myText.length > 4){
             console.log('That sounds fun');
@@ -24,7 +26,18 @@
         for( i=0; i<myText.length; i++){
             console.log(myText[i]);
         }
-        
+         console.log(myOtherText)
+         
+         for(var i=0; i<myOtherText.length; i++){
+            if(myOtherText[i] === 3){
+                newString += myOtherText[i].toUpperCase;
+
+            }
+            else{
+                newString += myOtherText[i];
+            }
+            console.log(newString)
+         }
 
         
     </script>
