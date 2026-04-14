@@ -1,0 +1,54 @@
+/*     font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal; */
+* {
+ box-sizing: border-box;
+}
+img{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    max-width: 1200;
+    border-radius: 20px;
+}
+body{
+    max-width: 1200px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    min-width: 800px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+    animation-name: bgcolorchange;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+header{
+    background-color:#D7DF21;
+    border-radius: 20px;
+    max-width: 1200px;
+    height: 150px;
+    display: grid;
+    place-content: center;
+}
+h1{
+    font-size: 4em;
+    
+}
+h2{
+    max-width: 1200px;
+    height: 100px;
+    display: grid;
+    place-content: center;
+    font-size: 2em;
+}
+@keyframes bgcolorchange {
+    0%   {background-color:#6d7d9c;}
+    25%  {background-color:#8c8955;}
+    50%  {background-color:#6b8492;}
+    75%  {background-color:#622955;}
+    100% {background-color:#857596;}
+  }
