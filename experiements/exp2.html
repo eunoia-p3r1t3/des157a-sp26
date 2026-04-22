@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Guess the Shape!</h1>
+    
+    <p id="result">You are...</p>
+
+    <script>
+        var shapes =['circle', 'star', 'square', 'triangle'];
+        var usersGuess = prompt('What shape am I thinking of? {circle, star, square, triangle}');
+
+        function pickRandomShape() {
+            var randomIndex = Math.floor(Math.random() * shapes.length);
+            return shapes[randomIndex];
+        }
+        
+        var selectedShape = pickRandomShape();
+
+        if (usersGuess === selectedShape) {
+            var finalResult= document.querySelector('#result') 
+            finalResult.innerHTML= "You are right!";
+        } else {
+            var finalResult= document.querySelector('#result') 
+            finalResult.innerHTML= "Try again! I was thinking of " + selectedShape;
+        }
+
+    </script>
+</body>
+</html>
