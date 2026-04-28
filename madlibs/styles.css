@@ -26,6 +26,9 @@ body{
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+#button{
+    font-size: 40px;
+}
 header{
     background-color:#D7DF21;
     border-radius: 20px;
@@ -34,9 +37,8 @@ header{
     display: grid;
     place-content: center;
 }
-h1{
+h1{  
     font-size: 4em;
-    
 }
 h2{
     max-width: 1200px;
