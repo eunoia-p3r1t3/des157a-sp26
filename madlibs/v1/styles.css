@@ -111,10 +111,10 @@ input[type="text"]:focus {
     max-width: 700px;
     height: 900px;
     margin-left: 70px;
-    
-   
 }
-
+span{
+    text-decoration: 3px underline #D7DF21;
+}
 .alien{
     display: block;
     width: 400px;
