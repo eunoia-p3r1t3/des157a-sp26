@@ -3,68 +3,116 @@
 }
 img{
     display: block;
-    width: 50%;
     height: auto;
     margin: auto;
     max-width: 1200px;
     border-radius: 20px;
 }
 body{
-
+    background-color: #120C2A;
+    background-image:url(images/stars.png);
+    max-width: 1200px;
+    height: 750px;
+    margin: auto;
     font-family: "Loved by the King", cursive;
     font-weight: 400;
     font-style: normal;
-    min-width: 800px;
-    max-width: 1200px;
-    margin: auto;
     padding: 30px;
-    animation-name: bgcolorchange;
-    animation-duration: 50s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+}
+main{
+    position: absolute;
+}
+.ufo{
+    width: 1000vw;
+    position: relative;
+    z-index: -1;
 }
 header{
+    padding: 60px;
     background-color:#D7DF21;
     border-radius: 20px;
     max-width: 1200px;
+    min-width: 1200px;
     height: 100px;
+    
     display: grid;
     place-content: center;
-}
-#button{
-    font-size: 50px;
-    padding: 15px;
-    background-color: #E4DED1;
 }
 h1{
     font-size: 5em;
     
 }
-#sec1{
-    margin-top: 30px;
-}
 label{
-    font-size: 1.5em;
-    margin-right: 10px;
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5px;
+    margin-right: 20px;
+}
+#ans{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    position: relative;
+}
+.btn{
+    position: static;
+}
+#button{
+    font-size: 70px;
+    width: 220px;
+    padding: 30px;
+    background-color: #E4DED1;
+    border-radius: 20px;
+    position: relative;
+    top: 380px;
+    left: 50px;
+}
+#button:focus{
+    border: 8px solid #662D91;
+    background-color: #D7DF21;
 }
 form{
-    display: grid;
-    place-items: center;
-    background-color: #120C2A;
     border-radius: 20px;
+    display: grid;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 230px;
+    left: 440px;
 }
 input{
-    margin-bottom: 30px;
+    display: block;
+    margin-bottom: 10px;
+    width: 50px;
 }
 input[type="text"]:focus {
-    border: 4px solid #662D91;
-    outline: 4px dashed #D7DF21;
+    border: 2.5px solid #D7DF21;
+    outline: 4px dashed #662D91;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-@keyframes bgcolorchange {
-    0%   {background-color:#6d7d9c;}
-    25%  {background-color:#8c8955;}
-    50%  {background-color:#6b8492;}
-    75%  {background-color:#622955;}
-    100% {background-color:#857596;}
-  }
+.letter{
+    background-color: whitesmoke;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding: 20px 50px 20px 50px;
+    max-width: 700px;
+    height: 900px;
+    position: fixed;
+    left: 830px;
+    bottom:5px;
+}
+.opening{
+    font-size: 1.5em;
+}
+.alien{
+    width: 400px;
+    margin-top: 100px;
+
+}
+span {
+    text-decoration: underline #D7DF21;
+}
+
+
+
+
