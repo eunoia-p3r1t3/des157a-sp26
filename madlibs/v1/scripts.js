@@ -48,7 +48,7 @@
                                 
                                 <p>Hello there ${words[0]} Humans,</p>
 
-                                <p>We come from the far away planet of ${words[1]}. We aliens have come ${words[2]} to your ${words[3]} planet and hope to ${words[4]} become a part of your world, and pose as ${words[5]} in order to learn more about your society. We really want to use this information in order to ${words[6]} and make our home planet much more ${words[7]}. Our reasoning for this is that ${words[8]} years ago our planet was overrun by ${words[9]} ${words[10]}, and made all of our ${words[11]}, lose their ${words[12]}. We really hope that you can understand and accept us during our visit.</p>
+                                <p>We come from the far away planet of ${words[1]} and hope to ${words[2]} become a part of your world, and pose as ${words[3]} in order to learn more about your society. We really want to use this information in order to ${words[4]} and make our home planet much more ${words[5]}. Our reasoning for this is that ${words[6]} years ago our planet was overrun by ${words[7]} ${words[8]} and made all of our ${words[9]}, lose their ${words[10]}. We really hope that you can understand and accept us during our visit.</p>
         
                                 <p>Wishing you the best,</p>
                                 <p>Your friendly galactic Alien</p>`;
