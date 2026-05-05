@@ -92,15 +92,11 @@ input[type="text"]:focus {
 #madlib-questions{
     display: block;
 }
-#madlib-outputs{
-    display: none;
-   
-}
 #madlib{
+    display: none;
     max-width: 1200px;
     display: flex;
-    margin-top: 30px; 
-    margin-bottom: 5px;
+    margin-top: 90px;
 }
 .letter{
     background-color: whitesmoke;
@@ -110,11 +106,10 @@ input[type="text"]:focus {
     padding: 20px 50px 20px 50px;
     max-width: 700px;
     height: 900px;
-    margin-left: 70px;
+    margin-left: 90px;
+   
 }
-span{
-    text-decoration: 3px underline #D7DF21;
-}
+
 .alien{
     display: block;
     width: 400px;
@@ -123,6 +118,7 @@ span{
     margin-right: 10px;
     flex:1;
 }
+
 
 
 
