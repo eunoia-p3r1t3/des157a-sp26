@@ -1,0 +1,144 @@
+* {
+ box-sizing: border-box;
+}
+img{
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 1200px;
+    border-radius: 20px;
+}
+body{
+    background-color: #120C2A;
+    background-image:url(images/stars.png);
+    max-width: 1200px;
+    height: 750px;
+    margin: auto;
+    font-family: "Loved by the King", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 30px;
+}
+main{
+    position: absolute;
+}
+.ufo{
+    width: 1000vw;
+    position: relative;
+    z-index: -1;
+}
+header{
+    padding: 60px;
+    background-color:#D7DF21;
+    border-radius: 20px;
+    max-width: 1200px;
+    min-width: 1200px;
+    height: 100px;
+    
+    display: grid;
+    place-content: center;
+}
+h1{
+    font-size: 5em;
+    
+}
+label{
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5px;
+    margin-right: 20px;
+}
+#ans{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    position: relative;
+}
+.btn{
+    position: static;
+}
+.but{
+    text-decoration: none;
+    background-color: #E4DED1;
+    width: 220px;
+    color: black;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.but:hover{
+    border: 8px solid #662D91;
+    background-color: #D7DF21;
+    
+}
+#button{
+    font-size: 70px;
+    width: 220px;
+    padding: 30px;
+    background-color: #E4DED1;
+    border-radius: 20px;
+    position: relative;
+    top: 380px;
+    left: 50px;
+}
+#button:focus{
+    border: 8px solid #662D91;
+    background-color: #D7DF21;
+}
+form{
+    border-radius: 20px;
+    display: grid;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 230px;
+    left: 440px;
+}
+input{
+    display: block;
+    margin-bottom: 10px;
+    width: 50px;
+}
+input[type="text"]:focus {
+    border: 2.5px solid #D7DF21;
+    outline: 4px dashed #662D91;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#madlib-questions{
+    display: block;
+}
+#madlib-outputs{
+    display: none;
+   
+}
+#madlib{
+    max-width: 1200px;
+    display: flex;
+    margin-top: 30px; 
+    margin-bottom: 5px;
+}
+.letter{
+    background-color: whitesmoke;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding: 20px 50px 20px 50px;
+    max-width: 700px;
+    height: 900px;
+    margin-left: 70px;
+}
+span{
+    text-decoration: 3px underline #D7DF21;
+}
+.alien{
+    display: block;
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex:1;
+}
+
+
+
+
+
