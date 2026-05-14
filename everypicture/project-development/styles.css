@@ -1,0 +1,36 @@
+img{
+    display: block;
+    margin-top: 108px;
+}
+body{
+    max-width: 1200px;
+    margin:auto;
+    background-color: rgb(255, 252, 241);
+}
+header{
+    background-color: rgb(75, 98, 138);
+    color:oldlace;
+    margin: auto;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    display: grid;
+    place-content: center;
+    margin-bottom: 20px;
+}
+.container {
+    max-width: 1200px;
+    aspect-ratio: 1000 / 659;
+    position: relative;
+    
+}
+img, svg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    max-width: 1200px;
+}
+svg{
+    opacity: 0;
+} 
