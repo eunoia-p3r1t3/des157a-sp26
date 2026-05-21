@@ -1,9 +1,25 @@
-img{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}img{
     display: block;
     margin-top: 108px;
 }
+#bag{
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 170px;
+}
+#wimb{
+    display: block;
+    margin-left: 155px;
+}
 body{
+    overflow: hidden;
     max-width: 1200px;
+    height: 600px;
     margin:auto;
     background-color: rgb(255, 252, 241);
 }
@@ -15,22 +31,303 @@ header{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    font-size: 2em;
+    padding-left:30px;
     display: grid;
-    place-content: center;
     margin-bottom: 20px;
+    height: 150px;
 }
-.container {
+h2{
+   font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3em; 
+    text-align: center;
+    animation: pulse 2s infinite ease-in-out;
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); } /* Grow by 10% */
+  100% { transform: scale(1); }
+}
+
+#mainpage {
+    display: block;
+    /* display: none; */
+    
+}
+#inner{
+    /* display: block; */
+    display: none;
     max-width: 1200px;
     aspect-ratio: 1000 / 659;
     position: relative;
     
 }
+.items{
+    display: block;
+    position: relative
+    
+}
+#new{
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 630px;
+}
+#pods:hover {
+  animation: wiggle 0.5s ease-in-out infinite;
+}
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+#baggy{
+    position: absolute;
+    top: 400px;
+    left: 800px;
+    rotate: 2deg;
+    
+}
+#baggy:hover {
+  animation: pulse-scale 2s infinite ease-in-out;
+}
+@keyframes pulse-scale {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); } /* Grow by 10% */
+  100% { transform: scale(1); }
+}
+#black{
+    position: absolute;
+    top: 200px;
+    left: 900px;
+}
+#charger{
+    position: absolute;
+    top: 240px;
+    left: 950px;
+    
+}
+#cube{
+    position: absolute;
+    top:130px;
+    left:980px;
+    rotate: 15deg;
+}
+#emer{
+    position: absolute;
+    top:400px;
+    left:30px;
+    rotate: -20deg;
+}
+#glass{
+    position: absolute;
+    top: 300px;
+    left:550px;
+    rotate:-70deg;
+}
+#glass:hover {
+  animation: wiggle 0.5s ease-in-out infinite;
+}
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+#peni{
+    position: absolute;
+    top:520px;
+    left: 600px;
+    rotate: 120deg;
+}
+#phonec{
+    position: absolute;
+    top:135px;
+    left:900px;
+}
+#plan{
+    position: absolute;
+    top: 30px;
+    left:230px;
+    rotate: 30deg;
+}
+#pou{
+    position: absolute;
+    top:500px;
+    left: 950px;
+    rotate: 20deg;
+}
+#pow{
+   position: absolute; 
+    top: 60px;
+    left:470px;
+}
+#rule{
+    position: absolute;
+    top:290px;
+    left: 600px;
+    rotate: 20deg;
+}
+#sketch{
+    position: absolute;
+    top:80px;
+    left: 40px;
+    rotate: -10deg;
+}
+#sticky{
+    position: absolute;
+    top:320px;
+    left:990px;
+    rotate: -10deg;
+}
+#wall{
+    position: absolute;
+   top:670px;
+   left: 300px;
+   rotate: 20deg;
+}
+#wall:hover {
+  animation: spin 1s ease-in-out ;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#wires{
+    position: absolute;
+    top: 10px;
+    left:1080px;
+    rotate: -45deg;
+}
+
 img, svg{
     position: absolute;
     top: 0;
     bottom: 0;
     max-width: 1200px;
+    margin-top:0;
 }
-svg{
-    opacity: 0;
-} 
+
+#outline {
+    position: absolute;
+    top:80px;
+    left: 37px;
+    rotate: -10deg;
+    opacity:0%;
+}
+
+.hidden {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+#overlay {
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#overlay article {
+    box-sizing: border-box;
+    background-color:oldlace;
+    padding: 20px;
+    width: 50vw;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+}
+.kit{
+    width: 500px;
+    position: absolute;
+    top:150px;
+    left:250px;
+
+}
+.close{
+    background-color: rgb(75, 98, 138);
+    width: 100px;
+    height: 60px;
+    font-size: 1.5em;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 50px;
+    border-color: rgb(106, 73, 29);
+    color: oldlace;
+    position: absolute;
+    top:750px
+}
+.sew{
+    width: 200px;
+    position: absolute;
+    top: 470px;
+}
+.matcha{
+    width: 150px;
+    position: absolute;
+    top: 540px;
+    left: 230px;
+    rotate:-20deg;
+}
+.alien{
+    width: 180px;
+    position: absolute;
+    top: 530px;
+    left: 450px;
+    rotate: 30deg;
+}
+.deoder{
+    width: 90px;
+    position: absolute;
+    top: 500px;
+    left:360px;
+}
+.hand{
+    width: 200px;
+    position: absolute;
+    top: 540px;
+    left: 600px;
+    rotate: -25deg;
+}
+.onigiri{
+    width: 200px;
+    position: absolute;
+    top: 630px;
+    left: 700px;
+}
+.eyes{
+    width: 150px;
+    position: absolute;
+    top: 500px;
+    left:770px;
+    rotate: 20deg;
+}
+.wet{
+    width: 120px;
+    position: absolute;
+    top:300px;
+    left:100px
+}
