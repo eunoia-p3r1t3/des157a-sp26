@@ -1,0 +1,304 @@
+* {
+ box-sizing: border-box;
+}
+
+h1, h2, h3, p, nav ul {
+    margin: 0;
+}
+
+img{
+    display: block;
+}
+
+body {
+    max-width: 1200px;
+    height: 3250px;
+    margin: auto;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    padding: 50px;
+    line-height: 1.5em;
+    background: #FFFCF7;
+    background: radial-gradient(circle,rgba(255, 252, 247, 1) 0%, rgba(255, 245, 231, 1) 100%); 
+    
+}
+main{
+    max-width: 1200px;
+
+}
+button { 
+    padding: 10px;
+}
+
+div {
+    padding: 20px;
+}
+
+                                                            /* page 1 */
+#rules{
+    display: block;
+    max-width: 1200px;
+    height: 750px;
+    margin: auto auto 40px auto;
+    border-radius: 30px;
+    overflow: hidden;
+    
+}
+#back1{
+    border-radius: 40px;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    top: -600px;
+    right: -10px;
+}
+
+#rules h1{
+    display: grid;
+    place-content: center;
+    font-size: 4em;
+    max-width: 500px;
+    margin: 40px auto;
+    color: #000000 ;
+    background-color: #FFF5E7;
+    padding: 50px;
+    border-radius: 30px; 
+}
+.linespiral{
+    rotate: 180deg;
+    position:relative;
+    bottom: 700px;
+    right: 170px;
+}
+.linespiral2{
+    position:relative;
+    bottom:1560px;
+    left: 930px;
+}
+
+#rules p{
+    max-width: 600px;
+    line-height: 1.7em;
+    padding-bottom: 20px;
+    margin: auto;
+    font-size: 1.2em;
+}
+
+#rules #sidenote{
+    max-width: 400px;
+    font-size: 1em;
+    margin: auto 220px;
+    color:#999A37;
+}
+#but{
+    max-width: 600px;
+    margin: auto;
+    display: grid;
+    place-content: center;
+    padding: 25px;
+    background-color: #FFF5E7;
+    border-radius: 30px;
+    border: 10px solid #000000;
+    font-size: 2em;
+   
+}
+                                                            /* page 2 */
+#pick{
+    display: none;
+    max-width: 1200px;
+    height: 750px;
+    margin: auto auto 40px auto;
+    /* position: absolute;
+    top: 1500px; */
+}
+#back{
+    width: 100%;
+    border-top: 100px solid #FFFCF7;
+    border-radius: 40px;
+    position: relative;
+    z-index: -1;
+    top: -700px;
+    right: -10px;
+}
+/* #spiral5{
+    position: relative;
+}
+#spiral7{
+    position: relative;
+} */
+#pick header{
+    display: grid;
+    place-content: center;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #FFF5E7;
+    padding: 10px;
+    border-radius: 30px; 
+}
+
+#pick h1{
+    font-size: 3em;
+    margin: 40px auto 40px auto;
+}
+
+#pick h2{
+    font-size: 3.9em;
+    margin:auto auto 40px auto;
+}
+
+#pick #characters{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+}
+
+#bluelady{
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#brownheart{
+    margin: auto;
+}
+
+#greeneye{
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#marooneye{
+    margin: auto;
+    
+}
+#purpleheart{
+    margin: auto;
+}
+#orangeguy{
+    margin: auto;
+}
+
+                                                        /* page 3*/
+#mygame{
+    display: none;
+    overflow: hidden;
+    margin: auto;
+    max-width: 1200px;
+    height: 900px;
+    /* position: absolute;
+    top: 3200px; */
+
+}  
+#agame{
+    height: 700px;
+}                                                     
+#back2{
+    width: 100%;
+    position: relative;
+    bottom: 700px;
+    z-index: -1;
+    border-radius: 40px;
+}
+#mygame h2{
+    padding: 20px;
+    display: grid;
+    place-content: center;
+}
+
+#mygame button{
+    display: grid;
+    place-content: center;
+}
+
+#gamecontrol, #startgame, #quit, #roll, #score{
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    
+}
+#score h2{
+    font-size: 2em;
+    color: #115C7B;
+}
+#startgame{
+    background-color: #000000;
+    color: #FFF5E7;
+    border: 10px solid #115C7B;
+    border-radius: 40px;
+ }
+#quit, #roll{
+    background-color: #000000;
+    color: #FFF5E7;
+    border: 10px solid #115C7B;
+    border-radius: 30px;
+}
+.mainpage h2{
+    font-size: 5em;
+    position: relative;
+    top: 180px;
+}
+.mainpage #startgame{
+    font-size: 2em;
+    position: relative;
+    top: 250px;
+}
+
+#game {
+    display: block;
+    display: grid;
+    margin: auto;
+    max-width: 600px;
+    place-content: center;
+}
+#who{
+    font-size: 1.5em;
+}
+
+#dice{
+    display: flex;
+    margin-top:40px;
+    gap:40px;
+    place-content: center;
+    
+}
+
+#playerscores{
+    display: flex;
+    gap: 300px;
+    place-content: center;
+    
+}
+
+#actions {
+    display: block;
+    display: flex;
+    margin: auto;
+    max-width: 600px;
+    gap: 20px;
+    place-content: center;
+}
+
+#rollagain{
+    background-color: #000000;
+    color: #FFF5E7;
+    border-radius: 30px;
+    border: 10px solid#999A37;
+}
+#pass{
+    background-color: #000000;
+    color: #FFF5E7;
+    border-radius: 30px;
+    border: 10px solid#999A37;
+}
+.hidden {
+    display: none;
+}
+
+.showing {
+    display: block;
+}

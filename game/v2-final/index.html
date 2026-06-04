@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of PIG</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div id="rules" class="showing" >
+        
+        <h1>Game of PIG</h1>
+        <p>There are two players. The player whose turn it is rolls the dice. The total of the roll is added to the current player's score, unless either die comes up as a "one". If this happens, this player's turn is over, and it is the other player’s turn. After each roll, the current player can either roll again, (assuming a "one" was not rolled) or if the current player feels that luck is running thin, they can pass to the other player. The first player to get 30 points or higher wins.</p> 
+        <p id="sidenote">**Oh, and if you roll two "ones" (snake eyes), your current score gets zeroed out. So don’t do that.**</p>
+        <button id="but">Start</button>
+        <img id="back1" src="images/desktoprules.png" alt=" side spirals">
+        </div>
+
+        <div id="pick" class="hidden">
+            <header>
+            <h1>choose your</h1>
+            <h2>character</h2>
+            </header>
+
+            <section id="characters">
+                <img id="bluelady" src="images/bl.png" alt="blue lady" >
+                <img id="brownheart" src="images/bh.png" alt="brown heart" >
+                <img id="greeneye" src="images/ge.png" alt="green eye" >
+                <img id="marooneye" src="images/me.png" alt="maroon eye" >
+                <img id="purpleheart" src="images/ph.png" alt="purple heart" >
+                <img id="orangeguy" src="images/og.png" alt="orange guy" >
+            </section>
+
+            <aside>
+                <img id="back" src="images/desktop.png" alt=" spirals">
+                 
+            </aside>
+
+        </div>
+        
+        <section id="mygame" class="hidden">
+            <article id="agame" >
+            <div id="gamecontrol">
+                <div class="mainpage">
+                <h2>pLaY a gAmE</h2>
+                <button id="startgame">StArT tHe gAmE</button>
+                </div>
+            </div>
+            <div id="character"></div>
+            <div id="score"></div>
+            <div id="game"></div>
+            <div id="actions"></div>
+            </article>
+            <img id="back2" src="images/desktoprules.png" alt=" side spirals">
+        </section>
+    </main>
+</body>
+</html>
