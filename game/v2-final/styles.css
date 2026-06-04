@@ -224,12 +224,20 @@ div {
 #score h2{
     font-size: 2em;
     color: #115C7B;
+    
+}
+#playerscores {
+    position: relative;
+    top: -8px;
 }
 #startgame{
     background-color: #000000;
     color: #FFF5E7;
     border: 10px solid #115C7B;
     border-radius: 40px;
+ }
+#character{
+    height:200px;
  }
 #quit, #roll{
     background-color: #000000;
